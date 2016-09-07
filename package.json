@@ -1,9 +1,8 @@
 {
-  "name": "loopback-connector-uploadcare",
-  "version": "1.0.0",
+  "name": "@atelierfabien/loopback-connector-uploadcare",
+  "version": "0.0.1",
   "description": "Loopback connector for Uploadcare uploads",
   "main": "index.js",
-  "private": true,
   "scripts": {
     "test": "NODE_ENV=test mocha -s 500 -t 10000 --reporter spec test"
   },
@@ -22,19 +21,12 @@
     "loopback-connector": "^2.3.0",
     "streamifier": "^0.1.1",
     "traverse": "^0.6.6",
-    "uploadcare": "https://github.com/fabien/uploadcare-node"
+    "@atelierfabien/fabien/uploadcare-node": "*"
   },
   "devDependencies": {
-    "independent-juggler": "git+https://github.com/fabien/independent-juggler.git",
+    "independent-juggler": "independent-juggler",
     "loopback-datasource-juggler": "^2.44.0",
     "mocha": "^2.3.4",
     "should": "^8.1.1"
-  },
-  "readme": "# loopback-connector-uploadcare\nLoopback connector for Uploadcare\n",
-  "readmeFilename": "README.md",
-  "gitHead": "eab4eeadc278a4d8bd09c50eb98f377a74524041",
-  "_id": "loopback-connector-uploadcare@1.0.0",
-  "_shasum": "6b1d8ed5c5c640b2e00088f04eed2833f678b3c5",
-  "_from": "../../github.com/fabien/loopback-connector-uploadcare",
-  "_resolved": "file:../../github.com/fabien/loopback-connector-uploadcare"
+  }
 }

@@ -24,7 +24,7 @@
     "@atelierfabien/uploadcare": "*"
   },
   "devDependencies": {
-    "independent-juggler": "independent-juggler",
+    "independent-juggler": "*",
     "loopback-datasource-juggler": "^2.44.0",
     "mocha": "^2.3.4",
     "should": "^8.1.1"

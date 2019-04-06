@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-uploadcare",
+  "name": "@atelierfabien/loopback-connector-uploadcare",
   "version": "0.0.3",
   "description": "Loopback connector for Uploadcare uploads",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "loopback-connector": "^2.3.0",
     "streamifier": "^0.1.1",
     "traverse": "^0.6.6",
-    "uploadcare": "git+ssh://git@github.com/fabien/uploadcare-node"
+    "uploadcare": "@atelierfabien/uploadcare-node"
   },
   "devDependencies": {
     "independent-juggler": "*",
